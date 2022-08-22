@@ -4,7 +4,6 @@
 //     return { priority, index };
 //   });
 //   const queue = [];
-//   let count = 0;
 
 //   while (newArr.length) {
 //     const headEl = newArr.shift();
@@ -29,7 +28,6 @@ function solution(priorities, location) {
     return { priority, index };
   });
   const queue = [];
-  let count = 0;
 
   while (true) {
     const headEl = newArr.shift();
